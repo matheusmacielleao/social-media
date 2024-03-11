@@ -64,6 +64,10 @@ public class User {
         return followers_request;
     }
 
+    public List<Post> getPosts() {
+        return posts;
+    }
+
     private void addFollowRequest(User follower) {
         followers_request.add(follower);
     }
